@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --background-color: #1b1b32;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: var(background-color);
+  background-image: url('../images/background-image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body::before {
+
+}
+
+.text-area {
+  resize: vertical;
+}
